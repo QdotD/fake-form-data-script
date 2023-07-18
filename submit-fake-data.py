@@ -113,7 +113,7 @@ def submit_form(driver):
     time.sleep(.25)
     driver.find_element(By.ID, "country_input_id").send_keys(country)
     time.sleep(.25)
-    driver.find_element(By.ID, "SalaryUSD_input_id").send_keys(
+    driver.find_element(By.ID, "salary_usd_input_id").send_keys(
         salary)  # Assuming there's a salary field
 
     # Submit the form
